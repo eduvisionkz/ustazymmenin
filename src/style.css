@@ -28,32 +28,32 @@ button{cursor:pointer}
   background:var(--deep);color:#fdf9ef;position:sticky;top:0;z-index:10;
   border-bottom:1px solid #ffffff24;
 }
-.brand{font-size:13px;font-weight:800;letter-spacing:.14em;white-space:nowrap}
-.topbar nav{display:flex;gap:clamp(16px,2.5vw,38px);font-size:13px;font-weight:600;white-space:nowrap}
+.brand{font-size:16px;font-weight:800;letter-spacing:.12em;white-space:nowrap}
+.topbar nav{display:flex;gap:clamp(16px,2.5vw,38px);font-size:16px;font-weight:600;white-space:nowrap}
 .topbar nav a{color:#d9e1dd;transition:color .2s}
 .topbar nav a:hover,.topbar nav a:focus-visible{color:var(--gold)}
 
 .hero{background:var(--deep);color:#fff;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);min-height:650px}
 .heroText{padding:clamp(75px,9vw,140px) clamp(30px,6vw,100px) 90px;align-self:center;position:relative;z-index:1}
 .heroText:before{content:"";display:block;width:52px;height:2px;background:var(--gold);margin-bottom:28px}
-.eyebrow,.sectionMark{font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase}
+.eyebrow,.sectionMark{font-size:14px;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
 .eyebrow{color:var(--gold)}
 .hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(48px,5.25vw,84px);letter-spacing:-.045em;line-height:1.15;margin:24px 0 23px;max-width:720px}
 .hero h1 em{font-weight:400;color:#e8c389}
-.heroText p{font-size:clamp(16px,1.45vw,20px);line-height:1.7;color:#e4eae6;max-width:520px;margin:0}
-.button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;border:0;border-radius:4px;padding:13px 25px;font-size:14px;font-weight:800;transition:transform .2s,background .2s,box-shadow .2s}
+.heroText p{font-size:clamp(19px,1.6vw,23px);line-height:1.7;color:#e4eae6;max-width:520px;margin:0}
+.button{display:inline-flex;align-items:center;justify-content:center;min-height:54px;border:0;border-radius:4px;padding:13px 25px;font-size:17px;font-weight:800;transition:transform .2s,background .2s,box-shadow .2s}
 .button:hover{transform:translateY(-2px);box-shadow:0 8px 22px #071b2066}
 .gold{background:var(--gold);color:var(--deep)}
 .hero .button{margin-top:33px}
 .heroImage{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;padding:clamp(24px,3.5vw,60px);background:radial-gradient(circle at 55% 38%,#355657 0%,#1b4043 48%,#103237 90%)}
 .heroImage:before{content:"";position:absolute;inset:clamp(16px,2.5vw,40px);border:1px solid #e6c48255;pointer-events:none}
 .heroImage img{display:block;width:100%;height:auto;max-height:550px;object-fit:contain;box-shadow:0 24px 65px #061b2066}
-.heroImage span{position:absolute;right:clamp(24px,3.5vw,60px);bottom:clamp(18px,3vw,45px);max-width:calc(100% - 50px);background:#fffdf8;color:var(--ink);padding:11px 16px;font-size:11px;font-weight:700;letter-spacing:.02em;box-shadow:0 8px 25px #051b2026}
+.heroImage span{position:absolute;right:clamp(24px,3.5vw,60px);bottom:clamp(18px,3vw,45px);max-width:calc(100% - 50px);background:#fffdf8;color:var(--ink);padding:11px 16px;font-size:14px;font-weight:700;letter-spacing:.02em;box-shadow:0 8px 25px #051b2026}
 
 .section{padding:clamp(76px,9vw,132px) clamp(24px,7vw,116px);display:grid;grid-template-columns:minmax(120px,20%) minmax(0,820px);column-gap:clamp(35px,6vw,100px)}
 .sectionMark{color:var(--accent);padding-top:11px;white-space:nowrap}
 .section h2{font-family:var(--serif);font-size:clamp(35px,3.7vw,58px);font-weight:500;line-height:1.23;letter-spacing:-.035em;margin:0 0 31px}
-.section p{font-size:clamp(16px,1.3vw,18px);line-height:1.85;margin:0}
+.section p{font-size:clamp(19px,1.5vw,21px);line-height:1.8;margin:0}
 .intro{background:var(--paper)}
 .intro p{max-width:740px;color:#425b5f;font-size:clamp(18px,1.65vw,23px);line-height:1.75}
 .timeline{background:var(--cream)}
@@ -62,16 +62,16 @@ button{cursor:pointer}
 .step{display:grid;grid-template-columns:132px minmax(0,1fr);gap:30px;padding:0 0 40px 30px;position:relative}
 .step:last-child{padding-bottom:0}
 .step:before{content:"";position:absolute;width:11px;height:11px;border-radius:50%;left:-6px;top:6px;background:var(--cream);border:2px solid var(--accent)}
-.step strong{font-size:13px;font-weight:800;color:#a17039;letter-spacing:.04em;padding-top:2px}
+.step strong{font-size:16px;font-weight:800;color:#a17039;letter-spacing:.04em;padding-top:2px}
 .step h3{font-family:var(--serif);font-size:clamp(20px,1.8vw,27px);font-weight:600;line-height:1.4;margin:-5px 0 7px}
-.step p{font-size:15px;line-height:1.75;color:#53686a}
-.timeline small{display:block;margin-top:40px;color:#6d7a78;font-size:12px}
+.step p{font-size:18px;line-height:1.75;color:#435b5e}
+.timeline small{display:block;margin-top:40px;color:#4e6467;font-size:15px}
 
 .photoMoment{background:#14383c;color:#fff;display:grid;grid-template-columns:1.15fr .85fr;align-items:stretch}
 .photoMoment img{display:block;width:100%;height:100%;min-height:510px;max-height:640px;object-fit:contain;background:#102c30}
 .photoMoment>div{padding:clamp(55px,7vw,110px) clamp(35px,6vw,100px);align-self:center}
 .photoMoment p{font-family:var(--serif);font-size:clamp(29px,3vw,44px);line-height:1.44;letter-spacing:-.025em;margin:26px 0}
-.photoMoment small{font-size:13px;line-height:1.6;color:#c9d8d3}
+.photoMoment small{font-size:16px;line-height:1.6;color:#d9e6e1}
 
 .gallery{background:#fffdf9}
 .gallery>div:nth-child(2)>p{color:#607274;max-width:660px}
@@ -82,11 +82,11 @@ button{cursor:pointer}
 .galleryCard.visible{opacity:1;transform:translateY(0)}
 .galleryCard img{display:block;width:100%;height:100%;max-height:400px;min-height:260px;object-fit:cover;transition:transform .55s ease}
 .galleryCard:hover img{transform:scale(1.045)}
-.galleryCard span{position:absolute;bottom:0;left:0;right:0;padding:48px 20px 18px;color:white;background:linear-gradient(transparent,#102528da);font-size:13px;font-weight:700}
+.galleryCard span{position:absolute;bottom:0;left:0;right:0;padding:48px 20px 18px;color:white;background:linear-gradient(transparent,#102528da);font-size:17px;font-weight:700}
 .lightbox{position:fixed;inset:0;background:#071719f2;z-index:20;display:flex;align-items:center;justify-content:center;gap:16px;padding:50px}
 .lightbox figure{margin:0;max-width:min(90vw,1100px);max-height:90vh;display:flex;flex-direction:column;align-items:center}
 .lightbox img{max-width:100%;max-height:78vh;object-fit:contain}
-.lightbox figcaption{color:white;font-size:14px;margin-top:16px}
+.lightbox figcaption{color:white;font-size:17px;margin-top:16px}
 .lightbox button{border:0;background:#ffffff25;color:#fff;width:48px;height:48px;border-radius:50%;font-size:32px;flex-shrink:0}
 .lightboxClose{position:absolute;right:20px;top:20px}
 
@@ -95,31 +95,31 @@ button{cursor:pointer}
 .articleHead h2{margin:15px 0 22px}
 .articleHead>p{font-family:var(--serif);font-size:clamp(20px,2vw,27px);font-style:italic;line-height:1.5;color:#9b703d;padding-left:22px;border-left:3px solid #d3ad73;margin-bottom:45px}
 .story{max-width:780px;background:#fffefa;padding:clamp(27px,5vw,70px);box-shadow:0 22px 60px #24372a0c;border:1px solid #ebe3d6}
-.story p{font-family:var(--serif);font-size:clamp(16px,1.18vw,18px);line-height:2.02;color:#263f41;margin:0 0 1.4em;text-wrap:pretty}
+.story p{font-family:var(--serif);font-size:clamp(19px,1.5vw,21px);line-height:1.9;color:#263f41;margin:0 0 1.4em;text-wrap:pretty}
 .story p:first-child:first-letter{float:left;font-family:var(--serif);font-size:3.4em;line-height:.86;padding:8px 8px 0 0;color:#ae7b43}
 .story .signature{margin:36px 0 0;padding-top:25px;border-top:1px solid #e1d5c4;color:#8a663c;font-style:italic}
 
 .memories{background:#efe8db}
 .memories>div:nth-child(2)>p{max-width:720px;color:#53696b}
 .memoryForm{display:grid;grid-template-columns:1fr 1fr;gap:20px;background:#fffefa;padding:clamp(22px,4vw,44px);margin-top:38px;border:1px solid #e3d9c9;box-shadow:0 18px 45px #203c3120}
-.memoryForm label{display:grid;gap:10px;font-size:13px;font-weight:700}
+.memoryForm label{display:grid;gap:10px;font-size:18px;font-weight:700}
 .memoryForm .full{grid-column:1/-1}
-.memoryForm input,.memoryForm textarea,.memoryForm select,.admin input{border:1px solid #c7d0cb;border-radius:4px;padding:14px 15px;background:#fff;color:var(--ink);width:100%;font-size:15px;outline:none}
+.memoryForm input,.memoryForm textarea,.memoryForm select,.admin input{border:1px solid #879a97;border-radius:4px;padding:16px;background:#fff;color:var(--ink);width:100%;font-size:19px;outline:none}
 .memoryForm input:focus,.memoryForm textarea:focus,.memoryForm select:focus,.admin input:focus{border-color:#9c7040;box-shadow:0 0 0 3px #e1b97933}
 .memoryForm textarea{min-height:160px;resize:vertical;line-height:1.7}
-.memoryForm .hint{font-size:12px;line-height:1.7;color:#667778;grid-column:1/-1;margin:0}
+.memoryForm .hint{font-size:16px;line-height:1.7;color:#435b5e;grid-column:1/-1;margin:0}
 .memoryForm button{justify-self:start;margin:0}
-.notice{font-size:14px;color:#19634f;margin:15px 0}
+.notice{font-size:18px;color:#19634f;margin:15px 0}
 .error{color:#a22}
 .memoryList{margin-top:75px}
 .memoryList h3{font-family:var(--serif);font-size:clamp(26px,2.5vw,36px);font-weight:500;margin:0 0 27px}
 .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
 .card{background:#fffefa;padding:28px;overflow:hidden;border:1px solid #e2d9cb}
 .card img{width:100%;max-height:340px;object-fit:contain;background:#eae9e3;margin:15px 0 0}
-.card h4{font-family:var(--serif);font-size:21px;margin:0 0 6px}
-.card p{font-size:15px;line-height:1.75;white-space:pre-wrap;margin:18px 0}
-.card small{font-size:12px;color:#687778}
-.empty{font-size:15px;line-height:1.6;color:#637478}
+.card h4{font-family:var(--serif);font-size:25px;margin:0 0 6px}
+.card p{font-size:20px;line-height:1.75;white-space:pre-wrap;margin:18px 0}
+.card small{font-size:16px;color:#435b5e}
+.empty{font-size:18px;line-height:1.6;color:#435b5e}
 
 footer{padding:52px clamp(24px,7vw,116px);background:var(--deep);color:white;display:flex;gap:25px;align-items:center;justify-content:space-between;font-size:13px}
 footer strong{font-family:var(--serif);font-size:18px}
@@ -152,39 +152,45 @@ footer a:hover{color:var(--gold)}
 @media(max-width:600px){
   html{scroll-padding-top:105px}
   .topbar{padding:15px 20px}
-  .brand{font-size:11px}
-  .topbar nav{font-size:11px;gap:20px}
+  .brand{font-size:14px}
+  .topbar nav{font-size:15px;gap:20px}
   .heroText{padding:57px 24px 45px}
   .heroText:before{margin-bottom:22px}
   .hero h1{font-size:clamp(40px,10vw,56px);margin:16px 0 19px}
-  .heroText p{font-size:16px}
+  .heroText p{font-size:19px}
   .hero .button{margin-top:25px}
   .heroImage{padding:24px 16px 44px}
   .heroImage:before{inset:15px 9px 24px}
-  .heroImage span{right:20px;bottom:12px;font-size:10px;padding:8px 10px}
+  .heroImage span{right:20px;bottom:12px;font-size:13px;padding:8px 10px}
   .section{padding:65px 23px;gap:17px}
   .section h2{font-size:clamp(31px,8vw,42px);margin-bottom:22px}
-  .section p{font-size:16px;line-height:1.8}
-  .intro p{font-size:17px}
+  .section p{font-size:19px;line-height:1.8}
+  .intro p{font-size:20px}
   .timeline h2{margin-bottom:35px}
   .step{grid-template-columns:1fr;gap:3px;padding:0 0 34px 24px}
-  .step strong{font-size:12px}
+  .step strong{font-size:15px}
   .step h3{font-size:21px;margin:3px 0 6px}
-  .step p{font-size:14px;line-height:1.7}
+  .step p{font-size:18px;line-height:1.7}
   .photoMoment>div{padding:45px 23px 55px}
   .photoMoment p{font-size:29px}
   .galleryGrid{grid-template-columns:1fr 1fr;gap:9px;margin-top:27px}
   .galleryCard,.galleryCard:nth-child(3n+1),.galleryCard:nth-child(3n+2){grid-column:span 1;min-height:190px}
   .galleryCard:first-child{grid-column:span 2}
   .galleryCard img{min-height:190px;max-height:270px}
-  .galleryCard span{font-size:11px;padding:34px 10px 10px}
+  .galleryCard span{font-size:15px;padding:34px 10px 10px}
   .articleHead>p{font-size:19px;margin-bottom:28px}
   .story{padding:27px 22px}
-  .story p{font-size:16px;line-height:1.88}
+  .story p{font-size:19px;line-height:1.85}
   .memoryForm{grid-template-columns:1fr;gap:17px;padding:22px;margin-top:28px}
   .memoryForm .full{grid-column:auto}
+  .memoryForm label{font-size:18px}
+  .memoryForm input,.memoryForm textarea,.memoryForm select{font-size:19px}
+  .memoryForm .hint{font-size:16px}
   .memoryList{margin-top:58px}
   .cards{grid-template-columns:1fr}
+  .memories .card p{font-size:20px;line-height:1.75}
+  .memories .card small{font-size:16px}
+  .memories .empty{font-size:18px}
   .lightbox{padding:55px 7px;gap:4px}
   .lightbox button{width:35px;height:35px;font-size:27px}
   footer{display:block;padding:43px 23px}
